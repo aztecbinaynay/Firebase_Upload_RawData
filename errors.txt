@@ -1,0 +1,4 @@
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tensorflow-intel 2.11.0 requires protobuf<3.20,>=3.9.2, but you have protobuf 4.23.2 which is incompatible.      
+tensorboard 2.11.2 requires protobuf<4,>=3.9.2, but you have protobuf 4.23.2 which is incompatible.
+paddlepaddle 2.4.2 requires protobuf<=3.20.0,>=3.1.0, but you have protobuf 4.23.2 which is incompatible. 
